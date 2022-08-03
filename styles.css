@@ -1,0 +1,27 @@
+body {
+  margin: 30px;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container-border {
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.qr-img {
+  width: auto;
+  border-radius: 20px;
+}
